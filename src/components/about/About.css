@@ -53,6 +53,7 @@
 
 .about-subtitle {
     font-size: var(--tiny-font-size);
+    color: #333 !important;
 }
 
 .about-description {
