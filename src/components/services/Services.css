@@ -1,0 +1,195 @@
+.services-container {
+    grid-template-columns: repeat(2, 300px);
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.services-content {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    padding: 6rem 0 2rem 2.5rem;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.services-icon {
+    display: block;
+    font-size: .9rem;
+    color: var(--title-color);
+    margin-bottom: 1rem;
+}
+
+.web-dev-icon {
+    font-size: 1.4rem;
+}
+
+.services-title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-1);
+    font-weight: var(--font-medium);
+}
+
+.services-btn {
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    cursor: pointer;
+}
+
+.services-btn-icon {
+    font-size: 1.3rem;
+    transition: 0.3s;
+  
+}
+
+.services-btn-icon:hover {
+    transform: translate(0.25rem);
+}
+
+
+.services-modal {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: var(--z-modal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.services-modal-content {
+    width: 500px;
+    position: relative;
+    background-color: var(--container-color);
+    padding: 4.5rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.serivce-modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--title-color);
+}
+
+.services-modal-title,
+.services-modal-description {
+    text-align: center;
+}
+
+.services-modal-title {
+    font-size: 24px;
+    font-weight: var(--font-medium);
+    margin-bottom: 30px;
+}
+
+.services-modal-description {
+    font-size: var(--small-font-size);
+    padding: 0 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.services-modal-services {
+    row-gap: 0.75rem;
+}
+
+.services-modal-service {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.services-modal-icon {
+    color: var(--title-color);
+    font-size: 1.1rem;
+}
+
+.services-modal-info {
+    font-size: var(--small-font-size);
+}
+
+.active-modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .services-container {
+        grid-template-columns: repeat(2, 300px);
+        justify-content: center;
+        column-gap: 2rem;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .services-container {
+        grid-template-columns: repeat(2, 250px);
+    }
+
+    .services-content {
+        padding: 3.5rem 0.5rem 1.2rem 1.5rem;
+    }
+
+    .services-icon {
+        font-size: 1rem;
+    }
+
+    .serivces-modal-icon {
+        font-size: 1.9rem;
+    }
+
+    .serivces-head {
+        font-size: 1.5rem;
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .services-container {
+        grid-template-columns: repeat(1, 300px);
+    }
+
+    .services-content {
+        padding: 4.5rem 1.5rem 2.5rem;
+    }
+
+    .services-modal-description {
+        padding: 0;
+    }
+
+    .serivces-head {
+        font-size: 1.5rem;
+        margin-bottom: 5rem;
+    }
+
+
+}
+
+@media screen and (max-width:350px) {
+    .services-container {
+        grid-template-columns: max-content;
+    }
+
+    .services-content {
+        padding: 4.5rem 1.5rem 2.5rem;
+    }
+
+    .serivces-head {
+        font-size: 1.5rem;
+        margin-bottom: 5rem;
+    }
+}
