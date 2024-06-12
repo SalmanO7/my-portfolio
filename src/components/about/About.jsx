@@ -1,7 +1,7 @@
 import React from 'react';
 import AboutImg from '../../assets/about.jpg';
 import { FaRegAddressCard } from "react-icons/fa6";
-import CV from '../../assets/myCV.pdf';
+import CV from '../../assets/NewCV.pdf';
 import Info from './Info';
 import './About.css';
 
