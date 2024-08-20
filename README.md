@@ -1,6 +1,7 @@
 # SalmanO7 Portfolio Website
 
-This is my personal portfolio website built using React and Vite. The website showcases my skills, services, projects, and contact information.
+This is my personal portfolio website built using React and Vite. The website showcases my skills, services and my projects.
+Aslo add contact information in butom for comunicate.
 
 ## Website Overview
 
