@@ -14,12 +14,11 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs
             .sendForm('service_8ypysck', 'template_k185ai4', form.current, {
                 publicKey: 'bcimoRsAcGpt5y8t8',
             })
-            e.target.reset();
+        e.target.reset();
     };
 
 
@@ -65,10 +64,11 @@ const Contact = () => {
                 <div className='contact-content'>
                     <h3 className='contact-title'>Write me Your Project</h3>
 
-                    <form ref={form} onSubmit={sendEmail}  className='contact-form'>
+                    <form ref={form} onSubmit={sendEmail} className='contact-form'>
                         <div className="contact-form-div">
                             <label className='contact-form-tag'>Name</label>
                             <input type="text"
+                                required
                                 name="name"
                                 className='contact-input'
                                 placeholder='Enter Your Name' />
@@ -76,6 +76,7 @@ const Contact = () => {
                         <div className="contact-form-div">
                             <label className='contact-form-tag'>Email</label>
                             <input type="email"
+                                required
                                 name="email"
                                 className='contact-input'
                                 placeholder='Enter Your Email' />
@@ -83,6 +84,7 @@ const Contact = () => {
                         <div className="contact-form-div contact-form-area">
                             <label className='contact-form-tag '>What You Want</label>
                             <textarea name="message"
+
                                 cols="30"
                                 rows="10"
                                 className='contact-input'
