@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
 
                 <div className='contact-content'>
-                    <h3 className='contact-title'>Write me Your Project</h3>
+                    <h3 className='contact-title'>Contact Form</h3>
 
                     <form ref={form} onSubmit={sendEmail} className='contact-form'>
                         <div className="contact-form-div">
