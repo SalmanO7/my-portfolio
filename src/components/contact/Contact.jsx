@@ -88,7 +88,7 @@ const Contact = () => {
                                 cols="30"
                                 rows="10"
                                 className='contact-input'
-                                placeholder='Somthing You Want Write'
+                                placeholder='Somthing You Want to Write for me'
                             ></textarea>
                         </div>
                         <button className='button button-flex'>
