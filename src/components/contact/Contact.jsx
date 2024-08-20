@@ -82,9 +82,9 @@ const Contact = () => {
                                 placeholder='Enter Your Email' />
                         </div>
                         <div className="contact-form-div contact-form-area">
-                            <label className='contact-form-tag '>What You Want</label>
+                            <label className='contact-form-tag '>Your Message</label>
                             <textarea name="message"
-
+                            required
                                 cols="30"
                                 rows="10"
                                 className='contact-input'
