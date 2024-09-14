@@ -33,7 +33,3 @@ Aslo add contact information in butom for comunicate.
 - **Vite**: As the build tool.
 - **CSS**: For styling the website.
 
-## How to Run the Project Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/SalmanO7/my-portfolio.git
