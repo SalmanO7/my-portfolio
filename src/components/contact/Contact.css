@@ -28,6 +28,11 @@
     padding: 1rem;
 }
 
+.contact-card:hover {
+    box-shadow: 2px 1px 7px green;
+
+}
+
 .contact-card-icon {
     font-size: 2rem;
     color: var(--title-color);
@@ -90,6 +95,10 @@
     z-index: 1;
 }
 
+.contact-input:focus-visible {
+    border: 2px solid green;
+}
+
 .contact-form-tag {
     position: absolute;
     top: -0.70rem;
@@ -140,12 +149,11 @@
         font-weight: var(--font-medium);
         margin: 2rem;
     }
-    .contact-form{
+
+    .contact-form {
         width: 100%;
     }
 
 }
 
-@media screen and (max-width: 355px) {
-    
-}
+@media screen and (max-width: 355px) {}

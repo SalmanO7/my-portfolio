@@ -27,21 +27,37 @@
     display: flex;
 }
 
-.nav-item a{
+.nav-menu ul li {
+    display: inline-block;
+}
+
+.nav-item a {
     cursor: pointer;
 }
 
-.nav-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1rem;
-    color: var(--title-color);
-    font-weight: var(--font-medium);
-    transition: .3s ease;
-    margin: 4px;
-
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 0;
+    position: relative;
 }
+
+.nav-menu ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: red;
+    color: red;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    background-color: green;
+  }
 
 .nav-icon,
 .nav-close,
@@ -51,6 +67,18 @@
 
 .nav-link:hover {
     color: var(--title-color-dark);
+}
+
+.headLogo {
+    width: 40px;
+    height: 40px;
+    box-shadow: 2px 1.5px 2px green;
+    border-radius: 50%;
+}
+
+.headLogo:hover {
+    box-shadow: 2px 1px 2px black;
+
 }
 
 
@@ -75,26 +103,29 @@
         border-radius: 1.5rem 1.5rem 0;
         transition: .4s;
     }
-    .show-menu{
+
+    .show-menu {
         bottom: 0;
     }
-    .nav-menu > .nav-list{
+
+    .nav-menu>.nav-list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
     }
 
-    .nav-item{
+    .nav-item {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
     }
 
-    .nav-icon{
+    .nav-icon {
         font-size: 1.2rem;
     }
-    .nav-close{
+
+    .nav-close {
         position: absolute;
         right: 1.3rem;
         bottom: 0.5rem;
@@ -102,11 +133,12 @@
         cursor: pointer;
         color: var(--title-color);
     }
-    .nav-close:hover{
+
+    .nav-close:hover {
         color: var(--title-color-dark);
     }
 
-    .nav-toggle{
+    .nav-toggle {
         font-size: 1.1rem;
         cursor: pointer;
     }
@@ -116,13 +148,25 @@
     .nav-toggle {
         display: block;
     }
+
+
+    .headLogo {
+        width: 27px;
+        height: 27px;
+    }
 }
 
 @media screen and (max-width: 350px) {
-    .nav-menu{
+    .nav-menu {
         padding: 2rem 0.10rem 4rem;
     }
-    .nav-list{
+
+    .nav-list {
         column-gap: 0;
+    }
+
+    .headLogo {
+        width: 25px;
+        height: 25px;
     }
 }

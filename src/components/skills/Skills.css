@@ -21,18 +21,25 @@
     row-gap: 1.7rem;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
 }
+
+.skills-group:hover {
+    box-shadow: 1px 1px 5px 1px green;
+
+}
+
 .skills-level {
     color: gray;
     font-size: 11px;
 }
+
 .skills-title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     text-align: center;
     margin-bottom: var(--mb-1-1);
 }
-.section-subtitle
-.skills-data {
+
+.section-subtitle .skills-data {
     display: flex;
     column-gap: 1rem;
     align-items: center;
@@ -48,11 +55,13 @@
     font-weight: var(--font-medium);
     line-break: 18px;
 }
-.skills-title{
+
+.skills-title {
     padding-bottom: 1rem;
     font-weight: 400;
     font-size: 0.91rem;
 }
+
 @media screen and (max-width: 590px) {
 
     .skills-box {

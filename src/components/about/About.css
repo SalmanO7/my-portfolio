@@ -8,8 +8,8 @@
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
 }
-
 .about-info {
     grid-template-columns: repeat(2, 140px);
     gap: 0.5rem;
@@ -24,6 +24,10 @@
     text-align: center;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
 }
+.about-box:hover{
+    box-shadow: 2px 1px 7px  green;
+}
+
 
 .about-btn {
     display: flex;

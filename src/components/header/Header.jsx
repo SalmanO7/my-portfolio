@@ -3,7 +3,9 @@ import { CiHome, CiFileOn, CiImageOff, CiUser } from "react-icons/ci";
 import { TiBriefcase, TiMessage } from "react-icons/ti";
 import { IoMdClose } from "react-icons/io";
 import { BsMenuButtonWide } from "react-icons/bs";
+import HeaderLogo from '../../assets/headLogo.jpg';
 import './Header.css'
+
 
 const Header = () => {
 
@@ -14,7 +16,7 @@ const Header = () => {
         <header className='header'>
             <nav className='nav container'>
                 <a href="#" className='nav-logo'>
-                    Salman
+                    <img src={HeaderLogo} alt="HEader Logo" className='headLogo' />
                 </a>
                 <div className={toggle ? "nav-menu show-menu" : "nav-menu"}>
                     <ul className="nav-list grid" >

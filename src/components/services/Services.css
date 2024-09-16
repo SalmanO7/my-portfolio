@@ -12,6 +12,11 @@
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
 }
 
+.services-content:hover {
+    box-shadow: 2px 1px 7px green;
+
+}
+
 .services-icon {
     display: block;
     font-size: .9rem;
@@ -41,7 +46,7 @@
 .services-btn-icon {
     font-size: 1.3rem;
     transition: 0.3s;
-  
+
 }
 
 .services-btn-icon:hover {
