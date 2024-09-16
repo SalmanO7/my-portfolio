@@ -17,7 +17,6 @@ Aslo add contact information in butom for comunicate.
 ### Skills Section
 - Lists my key skills and technologies I am proficient in.
 
-
 ### Services Section
 - Describes the services I offer such as UI/UX design and web development.
 
