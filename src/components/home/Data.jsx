@@ -9,7 +9,7 @@ const Data = () => {
                         Muhammad Salman
                     
                     </h1>
-                    <h3 class="text-animation">I'm a <span></span></h3>
+                    <h3 className="text-animation">I'm a <span></span></h3>
                     <p className='home-description'>As a dedicated front-end developer, I have a passion for crafting engaging and dynamic user interfaces.enabling me to create interactive web applications that provide seamless user experiences.
                     </p>
                 </div>

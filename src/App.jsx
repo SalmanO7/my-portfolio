@@ -17,16 +17,15 @@ const App = () => {
       <Header />
 
       <main className='main'>
-
         <Home />
-        <About />
-        <Skills />
-        <Services />
-        {/* <Qualification/> */}
-        <Work />
-        <Contact />
+        {<About /> }
+        { <Skills /> }
+        { <Services />}
+        {/* { <Qualification/> } */}
+        { <Work /> }
+        { <Contact />}
       </main>
-      <Footer />
+      {<Footer /> }
       <ScrollUp />
     </>
   )
