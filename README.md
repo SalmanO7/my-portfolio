@@ -13,7 +13,6 @@ Aslo add contact information in butom for comunicate.
 - Provides a detailed introduction about myself.
 - Includes a profile picture and a link to download my CV.
 
-
 ### Skills Section
 - Lists my key skills and technologies I am proficient in.
 
