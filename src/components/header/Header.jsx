@@ -3,7 +3,7 @@ import { CiHome, CiFileOn, CiImageOff, CiUser } from "react-icons/ci";
 import { TiBriefcase, TiMessage } from "react-icons/ti";
 import { IoMdClose } from "react-icons/io";
 import { BsMenuButtonWide } from "react-icons/bs";
-import HeaderLogo from '../../assets/headLogo.jpg';
+import Logo from '../../assets/headLogo.jpg';
 import './Header.css'
 
 
@@ -16,7 +16,7 @@ const Header = () => {
         <header className='header'>
             <nav className='nav container'>
                 <a href="#" className='nav-logo'>
-                    <img src={HeaderLogo} alt="HEader Logo" className='headLogo' />
+                    <img src={Logo} alt="HEader Logo" className='headLogo' />
                 </a>
                 <div className={toggle ? "nav-menu show-menu" : "nav-menu"}>
                     <ul className="nav-list grid" >
@@ -58,7 +58,6 @@ const Header = () => {
                     </ul>
                     <IoMdClose className='nav-close' onClick={() => showMenu(!toggle)} />
                 </div>
-
                 <div className="nav-toggle" onClick={() => showMenu(!toggle)}>
                     <BsMenuButtonWide className='nav-toggle' />
                 </div>

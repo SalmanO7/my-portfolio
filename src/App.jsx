@@ -18,14 +18,14 @@ const App = () => {
 
       <main className='main'>
         <Home />
-        {<About /> }
-        { <Skills /> }
-        { <Services />}
+        {<About />}
+        {<Skills />}
+        {<Services />}
         {/* { <Qualification/> } */}
-        { <Work /> }
-        { <Contact />}
+        {<Work />}
+        {<Contact />}
       </main>
-      {<Footer /> }
+      {<Footer />}
       <ScrollUp />
     </>
   )

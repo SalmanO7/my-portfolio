@@ -5,7 +5,7 @@ import Data from './Data';
 import './Home.css'
 
 const Home = () => {
-  return (
+return (
     <section className='home section' >
       <div className="home-container container grid">
         <div className='home-content grid'>

@@ -39,9 +39,9 @@
     margin-bottom: var(--mb-1-1);
 }
 
-.section-subtitle .skills-data {
+.section-subtitle, .skills-data {
     display: flex;
-    column-gap: 1rem;
+    column-gap: 0.7rem;
     align-items: center;
 }
 
