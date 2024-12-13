@@ -1,16 +1,10 @@
 import React from "react";
 import AboutImg from "../../assets/about.jpg";
 import { FaRegAddressCard } from "react-icons/fa6";
-<<<<<<< HEAD
 import CV from '../../assets/Salman_WebDev-Resume.pdf';
 import Info from './Info';
 import './About.css';
 
-=======
-import CV from "../../assets/SalmanResume.pdf";
-import Info from "./Info";
-import "./About.css";
->>>>>>> 332bacd988661faa9bc03a599dbe6da68c821849
 
 const About = () => {
   return (
