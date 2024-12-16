@@ -6,6 +6,7 @@ import Info from './Info';
 import './About.css';
 
 
+
 const About = () => {
   return (
     <section className="about section" id="about">

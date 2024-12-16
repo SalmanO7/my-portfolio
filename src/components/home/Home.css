@@ -9,6 +9,7 @@
     align-items: center;
 }
 
+
 .home-social {
     display: grid;
     grid-template-columns: max-content;

@@ -6,6 +6,7 @@ import { CiFacebook } from "react-icons/ci";
 import { RiMediumLine } from "react-icons/ri";
 import './Footer.css'
 
+
 const Footer = () => {
     return (
         <footer className="footer">

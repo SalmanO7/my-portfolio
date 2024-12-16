@@ -4,6 +4,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { VscGithubAlt } from "react-icons/vsc";
 
 
+
 const Social = () => {
   return (
     <div className='home-social'>
