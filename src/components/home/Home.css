@@ -58,7 +58,7 @@
 }
 
 .home-img {
-    background: url(../../assets/profile.jpg);
+    background: url(../../assets/profile.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -110,7 +110,7 @@
 
     0%,
     20% {
-        content: 'Web Developer';
+        content: 'Flutter Developer';
     }
 
     21%,
@@ -120,17 +120,17 @@
 
     41%,
     60% {
-        content: 'Frontend Developer';
+        content: 'Web Developer';
     }
 
     61%,
     80% {
-        content: 'UI/UX Designer';
+        content: 'App Developer';
     }
 
     81%,
     100% {
-        content: 'Web Developer';
+        content: 'Flutter Developer';
     }
 }
 
