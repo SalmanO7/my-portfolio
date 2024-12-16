@@ -44,7 +44,7 @@ const Contact = () => {
                         <div className='contact-card'>
                             <IoLogoWhatsapp className='contact-card-icon' />
                             <h3 className="contact-card-title">WhatsApp</h3>
-                            <span className='contact-card-data'>923248275845</span>
+                            <span className='contact-card-data'>+92 324 8275845</span>
 
                             <a href="https://wa.me/qr/XLWME2HMKBWBJ1" className="contact-btn">Write me{" "}
                                 <GoArrowRight className='contact-button-icon' />
