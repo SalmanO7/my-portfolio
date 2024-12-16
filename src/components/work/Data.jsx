@@ -25,7 +25,7 @@ export const projects = [
         id: 3,
         image: work14,
         title: "Advanture Game",
-         category: 'typescript',
+        category: 'typescript',
     },
 
     {

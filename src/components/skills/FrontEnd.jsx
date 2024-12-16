@@ -11,14 +11,14 @@ const FrontEnd = () => {
                         <IoCheckboxOutline className='skills-icon' />
                         <div>
                             <h3 className='skills-name'>HTML</h3>
-                            <span className='skills-level'>Advanced</span>
+                            <span className='skills-level'>Intermediate</span>
                         </div>
                     </div>
                     <div className='skills-data'>
                         <IoCheckboxOutline className='skills-icon' />
                         <div>
                             <h3 className='skills-name'>CSS</h3>
-                            <span className='skills-level'>Advanced</span>
+                            <span className='skills-level'>Intermediate</span>
                         </div>
                     </div>
                     <div className='skills-data'>
@@ -42,14 +42,7 @@ const FrontEnd = () => {
                     <div className='skills-data'>
                         <IoCheckboxOutline className='skills-icon' />
                         <div>
-                            <h3 className='skills-name'>Next.js</h3>
-                            <span className='skills-level'>Intermediate</span>
-                        </div>
-                    </div>
-                    <div className='skills-data'>
-                        <IoCheckboxOutline className='skills-icon' />
-                        <div>
-                            <h3 className='skills-name'>React.js</h3>
+                            <h3 className='skills-name'>React</h3>
                             <span className='skills-level'>Intermediate</span>
                         </div>
                     </div>

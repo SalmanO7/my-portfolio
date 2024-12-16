@@ -2,7 +2,6 @@ import React from 'react'
 import { SlBriefcase } from "react-icons/sl";
 import { GrTechnology } from "react-icons/gr";
 
-
 const Info = () => {
     return (
         <div className='about-info grid'>

@@ -3,9 +3,8 @@ import { CiHome, CiFileOn, CiImageOff, CiUser } from "react-icons/ci";
 import { TiBriefcase, TiMessage } from "react-icons/ti";
 import { IoMdClose } from "react-icons/io";
 import { BsMenuButtonWide } from "react-icons/bs";
-import Logo from '../../assets/logo.jpg';
+import Logo from '../../assets/headLogo.jpg';
 import './Header.css'
-
 
 
 const Header = () => {

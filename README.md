@@ -5,7 +5,6 @@ Aslo add contact information in butom for comunicate.
 
 ## Website Overview
 
-
 ### Home Section
 - Displays a brief introduction with my name and a professional tagline.
 - Includes links to download my CV and social media icons for easy connection.

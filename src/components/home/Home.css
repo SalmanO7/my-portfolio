@@ -9,7 +9,6 @@
     align-items: center;
 }
 
-
 .home-social {
     display: grid;
     grid-template-columns: max-content;
@@ -59,7 +58,7 @@
 }
 
 .home-img {
-    background: url(../../assets/profile.png);
+    background: url(../../assets/profile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -111,7 +110,7 @@
 
     0%,
     20% {
-        content: 'Flutter Developer';
+        content: 'Web Developer';
     }
 
     21%,
@@ -121,17 +120,17 @@
 
     41%,
     60% {
-        content: 'Web Developer';
+        content: 'Frontend Developer';
     }
 
     61%,
     80% {
-        content: 'App Developer';
+        content: 'UI/UX Designer';
     }
 
     81%,
     100% {
-        content: 'Flutter Developer';
+        content: 'Web Developer';
     }
 }
 
