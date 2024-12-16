@@ -6,7 +6,7 @@ const WroksItem = ({ item }) => {
         <div className="work-card" key={item.id}>
             <img src={item.image} alt="" className='work-img' />
             <h3 className="work-title">{item.title}</h3>
-            <a href="https://github.com/SalmanO7?tab=repositories" className='work-btn'>
+            <a href="https://github.com/MuhammadMohsin310?tab=repositories" className='work-btn'>
                 Explore <IoIosArrowRoundForward className='services-btn-icon' />
             </a>
         </div>

@@ -1,5 +1,5 @@
 .services-container {
-    grid-template-columns: repeat(2, 300px);
+    grid-template-columns: repeat(3, 300px);
     justify-content: center;
     column-gap: 2rem;
 }

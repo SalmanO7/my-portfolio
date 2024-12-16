@@ -1,10 +1,9 @@
 import React from "react";
-import AboutImg from "../../assets/about.jpg";
+/// import AboutImg from "../../assets/profile-about.png";
 import { FaRegAddressCard } from "react-icons/fa6";
-import CV from '../../assets/Salman_WebDev-Resume.pdf';
-import Info from './Info';
-import './About.css';
-
+// import CV from '../../assets/Salman_WebDev-Resume.pdf';
+import Info from "./Info";
+import "./About.css";
 
 
 const About = () => {
@@ -20,17 +19,17 @@ const About = () => {
           <Info />
           <div className="about-peragraph-section">
             <p className="about-p">
-              Hi! I'm Salman, a passionate student developer with a keen
+              Hi! I'm Mohsin, a passionate software developer with a keen
               interest in software development and web technologies. As I
               continue my journey in the tech world, I am eager to take on new
               challenges, learn from experienced professionals, and contribute
-              to meaningful projects that make a difference. Thank you for
-              visiting my portfolio, and I look forward to connecting with you!❤
+              to meaningful projects that make a difference, Lets connect and
+              create amazing apps together.❤
             </p>
           </div>
-          <a download="" href={CV} className="button about-btn button-flex">
-            Download Cv <FaRegAddressCard className="cv-icon" />
-          </a>
+          {/* <a download="" href={CV} className="button about-btn button-flex"> */}
+          {/* Download Cv <FaRegAddressCard className="cv-icon" /> */}
+          {/* </a> */}
         </div>
       </div>
     </section>
