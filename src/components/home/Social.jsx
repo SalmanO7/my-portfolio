@@ -3,11 +3,6 @@ import { CiInstagram } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 import { VscGithubAlt } from "react-icons/vsc";
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> aeac690503a8710d6f53a6995437ea8327342d40
 const Social = () => {
   return (
     <div className="home-social">
