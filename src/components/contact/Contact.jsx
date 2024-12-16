@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { GoArrowRight } from "react-icons/go";
 import { FaFacebookMessenger } from "react-icons/fa6";
-import { IoLogoWhatsapp } from "react-icons/io";
-import { FaLocationArrow } from "react-icons/fa6";
+// import { IoLogoWhatsapp } from "react-icons/io";
+// import { FaLocationArrow } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import "./Contact.css";
 
