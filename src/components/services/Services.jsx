@@ -21,49 +21,6 @@ const Services = () => {
             </div>
 
             <div className='services-container container grid'>
-                <div className='services-content'>
-                    <div>
-                        <SiPolywork className='services-icon' />
-                        <h3 className='services-title'>UI / UX Designer</h3>
-                    </div>
-                    <span className='services-btn' onClick={() => toggleTab(1)}>View More
-                        <IoIosArrowRoundForward className='services-btn-icon' />
-                    </span>
-
-                    <div className={toggle === 1 ? "services-modal active-modal" : "services-modal"}>
-                        <div className='services-modal-content'>
-                            <IoIosCloseCircleOutline className='serivce-modal-close' onClick={() => toggleTab(0)} />
-                            <h3 className='services-modal-title'>UI/UX Designing</h3>
-                            <p className="services-modal-description">As a passionate UI/UX designer, I focus on creating user-centered designs that are both visually appealing and highly functional.</p>
-                            <ul className='services-modal-services grid'>
-                                <li className="services-modal-service">
-                                    <IoIosCheckmarkCircleOutline className='services-modal-icon' />
-                                    <p className='services-modal-info'>Designing with the user's needs in mind.</p>
-                                </li>
-                                <li className="services-modal-service">
-                                    <IoIosCheckmarkCircleOutline className='services-modal-icon' />
-                                    <p className='services-modal-info'>Making websites look attractive and on-brand.</p>
-                                </li>
-                                <li className="services-modal-service">
-                                    <IoIosCheckmarkCircleOutline className='services-modal-icon' />
-                                    <p className='services-modal-info'>Checking if users find the website easy to use.</p>
-                                </li>
-                                <li className="services-modal-service">
-                                    <IoIosCheckmarkCircleOutline className='services-modal-icon' />
-                                    <p className='services-modal-info'>Making websites usable for people with disabilities.</p>
-                                </li>
-                                <li className="services-modal-service">
-                                    <IoIosCheckmarkCircleOutline className='services-modal-icon' />
-                                    <p className='services-modal-info'>Adding buttons and animations to engage users.</p>
-                                </li>
-                                <li className="services-modal-service">
-                                    <IoIosCheckmarkCircleOutline className='services-modal-icon' />
-                                    <p className='services-modal-info'>Choosing readable fonts and color schemes.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
 
                 <div className='services-content'>
                     <div>
@@ -108,6 +65,50 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
+                <div className='services-content'>
+                    <div>
+                        <SiPolywork className='services-icon' />
+                        <h3 className='services-title'>UI / UX Designer</h3>
+                    </div>
+                    <span className='services-btn' onClick={() => toggleTab(1)}>View More
+                        <IoIosArrowRoundForward className='services-btn-icon' />
+                    </span>
+
+                    <div className={toggle === 1 ? "services-modal active-modal" : "services-modal"}>
+                        <div className='services-modal-content'>
+                            <IoIosCloseCircleOutline className='serivce-modal-close' onClick={() => toggleTab(0)} />
+                            <h3 className='services-modal-title'>UI/UX Designing</h3>
+                            <p className="services-modal-description">As a passionate UI/UX designer, I focus on creating user-centered designs that are both visually appealing and highly functional.</p>
+                            <ul className='services-modal-services grid'>
+                                <li className="services-modal-service">
+                                    <IoIosCheckmarkCircleOutline className='services-modal-icon' />
+                                    <p className='services-modal-info'>Designing with the user's needs in mind.</p>
+                                </li>
+                                <li className="services-modal-service">
+                                    <IoIosCheckmarkCircleOutline className='services-modal-icon' />
+                                    <p className='services-modal-info'>Making websites look attractive and on-brand.</p>
+                                </li>
+                                <li className="services-modal-service">
+                                    <IoIosCheckmarkCircleOutline className='services-modal-icon' />
+                                    <p className='services-modal-info'>Checking if users find the website easy to use.</p>
+                                </li>
+                                <li className="services-modal-service">
+                                    <IoIosCheckmarkCircleOutline className='services-modal-icon' />
+                                    <p className='services-modal-info'>Making websites usable for people with disabilities.</p>
+                                </li>
+                                <li className="services-modal-service">
+                                    <IoIosCheckmarkCircleOutline className='services-modal-icon' />
+                                    <p className='services-modal-info'>Adding buttons and animations to engage users.</p>
+                                </li>
+                                <li className="services-modal-service">
+                                    <IoIosCheckmarkCircleOutline className='services-modal-icon' />
+                                    <p className='services-modal-info'>Choosing readable fonts and color schemes.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     );
