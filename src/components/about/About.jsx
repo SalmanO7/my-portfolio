@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImg from '../../assets/about.jpg';
+import AboutImg from '../../assets/updated.jpg';
 import { FaRegAddressCard } from "react-icons/fa6";
 import CV from '../../assets/webDev-mSalman.pdf';
 import Info from './Info';
